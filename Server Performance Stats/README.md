@@ -1,7 +1,7 @@
 A bash script to analyse basic server performance stats of Linux server.
 # Getting Started
 #### 1. Clone the repository
-`git clone https://github.com` <br>
+`git clone https://github.com/rusha27/scripting.git` <br>
 `cd server-performance-stats`
 #### 2. Make the script executable
 `chmod +x server-stats.sh`
