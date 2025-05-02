@@ -3,22 +3,22 @@
 echo "Server Performance Statistics"
 echo
 
-# Stretch: OS Version
+# OS Version
 echo ">> OS Version:"
 cat /etc/os-release | grep -E '^(NAME|VERSION)='
 echo
 
-# Stretch: Uptime and Load Average
+# Uptime and Load Average
 echo ">> Uptime and Load Average:"
 uptime
 echo
 
-# Stretch: Logged In Users
+# Logged In Users
 echo ">> Logged in Users:"
 who
 echo
 
-# Stretch: Failed Login Attempts (last 10)
+# Failed Login Attempts (last 10)
 echo ">> Last 10 Failed Login Attempts:"
 lastb -n 10 2>/dev/null || echo "Command 'lastb' requires root privileges or may not be available."
 echo
