@@ -1,14 +1,21 @@
+# Server Performance Stats
 A bash script to analyse basic server performance stats of Linux server.
-# Getting Started
+## Getting Started
 #### 1. Clone the repository
-`git clone https://github.com/rusha27/scripting.git` <br>
-`cd server-performance-stats`
+```
+git clone https://github.com/rusha27/scripting.git
+cd server-performance-stats
+```
 #### 2. Make the script executable
-`chmod +x server-stats.sh`
+```
+chmod +x server-stats.sh
+```
 #### 3. Execute the script
-`./server-stats.sh`
+```
+./server-stats.sh
+```
 
-# Output stats
+## Output stats
 #### The script provides the following system performance metrics:
 
 1. OS Version
